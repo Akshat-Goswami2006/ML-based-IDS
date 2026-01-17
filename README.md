@@ -11,10 +11,10 @@ pinned: false
 
 # 🛡️ AI-Based Network Intrusion Detection System (Student Project)
 
-This project demonstrates how to use **Machine Learning (Random Forest)** and **Generative AI (Groq)** to detect and explain network attacks (specifically DDoS).
+This project demonstrates how to use **Machine Learning (Random Forest)** and **Generative AI (LLaMA-3.3-70B)** to detect and explain network attacks (specifically DDoS).
 
 ## 🚀 How to Use
-1. **Enter API Key:** Paste your Grok API key in the sidebar (optional, for AI explanations).
+1. **Enter API Key:** Paste your Groq API key in the sidebar (optional, for AI explanations).
 2. **Train Model:** Click the "Train AI Model" button. The system loads the `Friday-WorkingHours...` dataset automatically.
 3. **Simulate:** Click "Simulate Random Packet" to pick a real network packet from the test set.
 4. **Analyze:** See if the model flags it as **BENIGN** or **DDoS**, and ask Grok to explain why.
